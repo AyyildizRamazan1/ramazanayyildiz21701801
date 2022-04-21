@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        .cerceve{
+            border-style:solid;
+            border-color: black;
+            border-width: px;
+            background-color: #ff99ff;
+            
+        }
+        body{
+            background-color: #00ffff;
+        }
+        h3{
+            color: red;
+            font-style: italic;
 
+        }
+        </style>
+        
+        
+        
+        <div class="cerceve">
+        
+        <h3>Alert nedir? </h3> <br>
+        Alert kullanıcının önüne önemli bir şey yada sitede bir şey yaptıktan sonra başarılı yada başarısız olduğunda çıkartmak için kullanılır.<br>
+        Alert kutularını oluşturabilmek  için alert sınıfından sonra primary,secondary,success,danger,warning,info,dark,light sınıfları kullanılabilir.<br>
+            <br>
+    </div>
+        <br>
+        <div class="cerceve">
+            <h3>Kullanılan Etiketleri Görme</h3>
+            Primary kullanımı şu şekilde:<br>
+            <div class="alert alert-primary">
+                Primary kullanımı
+            </div><br>
+            Secondary kullanımı şu şekilde:<br>
+            <div class="alert alert-secondary">
+                Secondary kullanımı
+            </div><br>
+             Success kullanımı şu şekilde:<br>
+             <div class="alert alert-success">
+                Success kullanımı
+            </div><br>
+             Danger kullanımı şu şekilde:<br>
+             <div class="alert alert-danger">
+                Danger kullanımı
+             </div><br>
+             Warning kullanımı şu şekilde:<br>
+             <div class="alert alert-warning">
+                Warning kullanımı
+            </div><br>
+            İnfo kullanımı şu şekilde:<br>
+            <div class="alert alert-info">
+                İnfo kullanımı
+            </div><br>
+            Dark kullanımı şu şekilde:<br>
+            <div class="alert alert-dark">
+                Dark kullanımı
+            </div><br>
+            Light kullanımı şu şekilde:
+            <div class="alert alert-light">
+                Light kullanımı
+             </div><br> 
+             Gördüğünüz gibi kullanım sırasında renkler değişiyor kullanıcıya hangisini göstermek isterseniz onu kullanılabilirsiniz.
+        </div><br>
+
+        <div class="cerceve">
+        
+    <h3>Alert link ekleme</h3>
+    Kullanıcının önüne çıkartacağımız alert içinde link olmasını istersek şu şekilde ekleriz.<br>
+    <div class="alert alert-primary">
+        Alert link ekleme 
+        <a href="" class="https://ayyildizramazan1.github.io/ayyildizramazan1.githup.io/">ödev için tık</a>
+    </div>
+    </div><br>
+
+    <div class="cerceve">
+        <h3>Alert kapatma</h3>
+    Kullanıcı bir işlemi yaptığında ona bildirmek ve kullanıcı tarafından bildirilen alerti kapatmak için çarpı iconu eklemek şu şekilde oluyor.<br>
+    <div class="alert alert-warning alert-dismissible ">
+        Çarpı butonu ile alert kapatmak
+        <button type="button" class="btn-close" data-bs-dismiss="alert">
+        </button>
+    </div>
+    <br>
+    <h3>Kullandığımız kodlar</h3>
+    <div class="cerceve">
+
+        
+          <xmp>
+            Primary kullanımı şu şekilde:<br>
+            <div class="alert alert-primary">
+                Primary kullanımı
+            </div><br>
+            Secondary kullanımı şu şekilde:<br>
+            <div class="alert alert-secondary">
+                Secondary kullanımı
+            </div><br>
+             Success kullanımı şu şekilde:<br>
+             <div class="alert alert-success">
+                Success kullanımı
+            </div><br>
+             Danger kullanımı şu şekilde:<br>
+             <div class="alert alert-danger">
+                Danger kullanımı
+             </div><br>
+             Warning kullanımı şu şekilde:<br>
+             <div class="alert alert-warning">
+                Warning kullanımı
+            </div><br>
+            İnfo kullanımı şu şekilde:<br>
+            <div class="alert alert-info">
+                İnfo kullanımı
+            </div><br>
+            Dark kullanımı şu şekilde:<br>
+            <div class="alert alert-dark">
+                Dark kullanımı
+            </div><br>
+            Light kullanımı şu şekilde:
+            <div class="alert alert-light">
+                Light kullanımı
+             </div><br> 
+             <div class="alert alert-primary">
+                Alert link ekleme
+                <a href="" class="alert-link">link text</a>
+            </div>
+            <div class="alert alert-warning alert-dismissible ">
+                Çarpı butonu ile alert kapatmak
+                <button type="button" class="btn-close" data-bs-dismiss="alert">
+                </button>
+            </div>
+          </xmp>
+ 
+    </div>
+
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
